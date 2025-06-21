@@ -1,0 +1,17 @@
+    # Initialize git repository
+git init
+
+# Add all your files
+git add .
+
+# Create your first commit
+git commit -m "Initial commit: Solana wallet app with top navigation"
+
+# Set the main branch
+git branch -M main
+
+# Connect to your GitHub repository
+git remote add origin https://github.com/ElysonGreber/solana-wallet-app2.git
+
+# Push your code to GitHub
+git push -u origin main
